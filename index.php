@@ -8,10 +8,10 @@
 </head>
 <body>
     <main class="main">
-        <h1>Ряд чисел фибоначи:</h1>
+        <h1>Ряд чисел фибоначи (16 чисел):</h1>
         <ul>
             <?php
-                function fibonacci($n=50,$first = 0,$second = 1) {
+                function fibonacci($n,$first = 0,$second = 1) {
                     print_r('<li>' . 0 . '</li>');
                     $fib = [$first,$second];
                     for($i=1;$i<$n;$i++)
@@ -26,7 +26,7 @@
                         }
                     return $fib;
                 }
-                fibonacci(50);
+                fibonacci(16);
             ?>
         </ul>
     </main>
