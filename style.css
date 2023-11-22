@@ -1,0 +1,16 @@
+.main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+ul {
+list-style: none;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
